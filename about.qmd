@@ -1,16 +1,16 @@
 ---
-title: "Thomas Rose"
+title: "Miguel Bernecker"
 about:
   id: template-area
   template: jolla
   image: profile.png
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
+   # - icon: twitter
+   #   text: twitter
+   #   href: https://twitter.com
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/itsMig
 ---
 
 ## Tasks for this page
@@ -30,13 +30,13 @@ Here goes the information about you.
 ## Legal Notice
 
 Provider according to § 5 TMG is:  
-Thomas Rose  
-Fahrenheitstr. 52  
-44879 Bochum  
+Miguel Bernecker  
+Ben-Gurion-Ring 48a
+60437 Frankfurt  
 Germany  
 
-Phone +49 1522 3176524  
-E-Mail: thomas.rose [at] daad-alumni.de
+
+E-Mail: bernecker [at] em.uni-frankfurt.de
 
 ## Privacy
 
