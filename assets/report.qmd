@@ -61,8 +61,8 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/refs/heads/main/csv/Baical%20Rift%20Zone.csv")
 
 COLUMNS = df.keys()
-plt.plot(data[COLUMNS[0]],
-         data[COLUMNS[1]],)
+plt.plot(df[COLUMNS[0]],
+         df[COLUMNS[1]],)
 plt.show()
 ```
 
