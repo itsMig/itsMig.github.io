@@ -16,7 +16,7 @@ author:
 2. Update the file _quarto.yml in your repository to include the report in your webpage
 3. Load a dataset from https://github.com/Hezel2000/GeoCosmoChemDataAndTools/tree/main/csv
 4. Update the YAML header of this file
-5. Create a file `requirements.txt`on the top level of the repo
+5. Create a file `requirements.txt` on the top level of the repo
 5. Update the CI/CD pipeline as instructed below
 6. Create a short report, including plots created from the dataset (they can be interactive if you want -- the result is a webpage)
   a. Don't forget to update the `requirements.txt`with the libraries you call.  
@@ -42,8 +42,7 @@ Add between lines 15 and 16:
 
 Make sure identations are correct! 
 
---> 
-
+-->
 ## The randomness of R
 
 Because there must be some content for inspiration, let's see how random random numbers in R really are. 
@@ -53,4 +52,12 @@ Because there must be some content for inspiration, let's see how random random 
 Uniformly distributed random number means that all number have the same chance to get drawn from the pool. There are multiple methods to produce such numbers. 
 
 The most common command to create a uniform distribution of random numbers in R is `runif()`, standing for **r**andom **unif**orm. There is also the command `sample()` which is a bit more complex and therefore not further discussed here. 
+
+
+```{python}
+import matplotlib.pyplot as plt
+plt.plot(range(100), range(100))
+plt.show()
+
+```
 
