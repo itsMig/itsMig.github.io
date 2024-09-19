@@ -57,10 +57,8 @@ The most common command to create a uniform distribution of random numbers in R 
 ```{python}
 import pandas as pd
 import matplotlib.pyplot as plt
-#plt.plot(range(100), range(100))
-#plt.show()
 
-data = pd.read_csv("https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/refs/heads/main/csv/Baical%20Rift%20Zone.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/refs/heads/main/csv/Baical%20Rift%20Zone.csv")
 
 COLUMNS = df.keys()
 plt.plot(data[COLUMNS[0]],
