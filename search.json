@@ -46,7 +46,7 @@
     "href": "assets/report.html#uniformly-distributed-random-numbers",
     "title": "Random report",
     "section": "Uniformly distributed random numbers",
-    "text": "Uniformly distributed random numbers\nUniformly distributed random number means that all number have the same chance to get drawn from the pool. There are multiple methods to produce such numbers.\nThe most common command to create a uniform distribution of random numbers in R is runif(), standing for random uniform. There is also the command sample() which is a bit more complex and therefore not further discussed here."
+    "text": "Uniformly distributed random numbers\nUniformly distributed random number means that all number have the same chance to get drawn from the pool. There are multiple methods to produce such numbers.\nThe most common command to create a uniform distribution of random numbers in R is runif(), standing for random uniform. There is also the command sample() which is a bit more complex and therefore not further discussed here.\n\nimport matplotlib.pyplot as plt\nplt.plot(range(100), range(100))\nplt.show()"
   },
   {
     "objectID": "index.html",
